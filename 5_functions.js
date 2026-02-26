@@ -244,7 +244,7 @@
 
 // // isi     isi
 // radar
-// level
+// level           
 const isPalindrome = (str) => {
   let reverse = "";
   for (let char = str.length - 1; char >= 0; char--) {

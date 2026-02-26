@@ -86,18 +86,18 @@ let fruits = ["apple", "orange", "mango", "grapes", "banana"];
 //* map() creates a new array from calling a function for every array element. map() does not change the original array.
 
 
-// const myMapArr = fruits.map((curElem, index, arr) => {
-//   return ` my fav fruit is ${curElem} `;
-//   //   console.log(arr);
-// });
+const myMapArr = fruits.map((curElem, index, arr) => {
+  return ` my fav fruit is ${curElem} `;
+  //   console.log(arr);
+});
 
-// console.log(myMapArr);
-// console.log(fruits);
+console.log(myMapArr);
+console.log(fruits);
 
 //todo Practice Time
 //! write a program to Multiply each element with 2
 // const numbers = [1, 2, 3, 4, 5];
-// // forEach -  Performs an action on each element
+// // forEach -  Performs an action on each element 
 // // map -  Creates a new array with transformed elements
 
 // numbers.forEach((curElem) => {
