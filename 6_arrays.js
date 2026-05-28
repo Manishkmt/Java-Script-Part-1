@@ -50,19 +50,19 @@
 //* ============================================
 //?👉 Array Traversal / Iterating Over Arrays
 
-let fruits = ["apple", "orange", "mango", "grapes", "banana"];
+let fruits = ["apple", "orange", "mango", "grapes", "banana","Pineapple"];
 
 //? 1: for of loop , also known as iterable
 //* for...of Loop: The for...of loop is used to iterate over the values of an iterable object, such as arrays, strings, or other iterable objects.
 
-// for(item of fruits)
-// {
-//   console.log(item);
-// }
+for(item of fruits)
+{
+  console.log(item);
+}
 
-// for (let item = 0; item < fruits.length; item++) {
-//   console.log(fruits[item]);
-// }
+for (let item = 0; item < fruits.length; item++) {
+  console.log(fruits[item]);
+}
 
 //? 2: for in loop
 //* for...in Loop: The for...in loop is used to iterate over the properties (including indices) of an object.
