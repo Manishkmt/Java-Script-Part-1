@@ -78,11 +78,54 @@
 //? Types of datatypes:-
 //                    1. primitive:-    1. numbwer  2. string  3. Boolean  4. Undefined  5. Null  6. BigInt  7. Symbol
 
-age = 19;
-name = "Manish Kumawat";
-console.log(age);
-console.log(typeof(age));
-console.log(name);
-console.log(typeof(name));
+// age = 19;
+// name = "Manish Kumawat";
+// let x;
+// console.log(age);
+// console.log(typeof(age));
+// console.log(name);
+// console.log(typeof(name));
 
-//                    2. Non Primitive:- objects
+
+// console.log(x);
+// console.log(typeof(x));
+
+
+// let y = null;
+// console.groupCollapsed(y);
+// console.log(typeof(y));
+
+// let a = BigInt("12345");
+// console.log(a);
+// console.log(typeof(a));
+
+
+// let b = symbol("Hello!");
+// console.log(b);
+// console.log(typeof(b));
+
+
+
+//                    2. Non Primitive:- 
+
+//? 1. Objects:-
+//*             It is the collection of values.
+//Example:-
+
+// const student = {
+//   name : "Manish Kumawat",
+//   age : 19,
+//   marks : 99,
+//   isPass : true,
+// };
+
+// console.log(student);
+// console.log(typeof(student));
+
+// console.log(student.age);
+// console.log(student["age"]);
+
+// //to change value
+// student.age = student.age + 1;
+// console.log(student.age);
+
