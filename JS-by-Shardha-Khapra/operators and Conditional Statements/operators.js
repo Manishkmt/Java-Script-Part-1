@@ -53,7 +53,7 @@
 // console.log(--a);
 
 
-//? 3. aSsignment Operators:-
+//? 3. assignment Operators:-
 //                           to assign the value.
 // Example:-
 //          =, +=, -=, *=, /=, **=
@@ -97,3 +97,5 @@
 let age = 18;
 let result = age > 18 ? "can vote" : " can't vote";
 console.log(result);
+
+
