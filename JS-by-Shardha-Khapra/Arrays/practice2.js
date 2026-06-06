@@ -2,12 +2,20 @@
 
 
 let prices = [250,645,300,900,50];
-let i = 0;
-for(let value of prices){
-   console.log(`value at index ${i} = `, value);
-   let offer = value/10;
-   prices[i] = prices[i] - offer;
+// let i = 0;
+// for(let value of prices){
+//    console.log(`value at index ${i} = `, value);
+//    let offer = value/10;
+//    prices[i] = prices[i] - offer;
 
-   i++;
+//    i++;
+// }
+// console.log(prices);
+
+
+for(let i = 0; i < prices.length; i++){
+   let offer = prices[i]/10;
+   prices[i] -= offer;
+
 }
 console.log(prices);
