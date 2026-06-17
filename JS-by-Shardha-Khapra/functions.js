@@ -42,13 +42,31 @@
 // sum(4, 5);
 
 
-function sum(a, b){
+// function sum(a, b){
   // here a and b or function parameters act as a local variables of sum function.
 
-  s = a + b;
- return s;
-}
+//   s = a + b;
+//  return s;
+// }
 
-let val = sum(4,5);
-console.log(val);
-sum(4, 5);
+// let val = sum(4,5);
+// console.log(val);
+// sum(4, 5);
+
+
+// ! Arrow functions:-
+// ?                   Compact way of writing a function.
+
+// const functionName = (parm1,parm2,...)=>{
+  // do some work
+  // }
+
+  // Example:-
+
+  function sum(a, b){
+    return a + b;
+  }
+const arrowSum = (a, b) => {
+  return a * b;
+};
+
