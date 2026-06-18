@@ -1,9 +1,8 @@
-//  ! Create a function using the "function" keyword that takes a String as an argument & returns the number of vowels in the string.
+// ! Create an arrow function using the "function" keyword that takes a String as an argument & returns the number of vowels in the string.
 
 
-
-function countVowels(str){
- str = "Manish Kumawat";
+const countVowels = (str) => {
+   str = "Manish Kumawat";
 let count = 0;
 
   for(const char of str){
@@ -15,4 +14,5 @@ let count = 0;
   console.log(count);
 
 }
+
 countVowels();

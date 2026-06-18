@@ -95,6 +95,25 @@ for(let i in student){
 
 
 
+// ? 6. forEach loop in Arrays:-
+//                             forEach() is an array method in JavaScript that iterates through each element of an array and executes a callback function for every element.
+
+//  arr.forEach(callBackfunction)
+
+
+// ? callback:-
+//              A callback is a function passed as an arguent to another function.
+
+
+
+// ! Higher order function:-
+// *                        A Higher Order Function (HOF) is a function that:
+
+//* Takes another function as an argument, or
+//* Returns another function.
+
+
+
 
 
 

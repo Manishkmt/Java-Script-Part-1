@@ -110,8 +110,28 @@
 
 // Splice(startindex, delCount, newel)
 
-let foodItems = ["Mango", "Onion", "Apple", "pizza"];
-console.log(foodItems);
-console.log(foodItems.splice(1,1,"Guava","Icecream"));
+// let foodItems = ["Mango", "Onion", "Apple", "pizza"];
+// console.log(foodItems);
+// console.log(foodItems.splice(1,1,"Guava","Icecream"));
 
-console.log(foodItems.splice(1, 0 ,"Icecream"));
+// console.log(foodItems.splice(1, 0 ,"Icecream"));
+
+// ! Some more methods in Arrays:-
+
+// ? map:- 
+//         Creates a new array with the result of some operation. The value its callback returns are used to form new array
+
+//  arr.map(callbackfun(value,index, array))
+
+
+// *Example:-
+
+let arr = [1, 2, 3, 4, 5];
+
+let newArr = arr.map((val) => {
+  
+  return val * 2;
+  
+  
+});
+ console.log(newArr);
