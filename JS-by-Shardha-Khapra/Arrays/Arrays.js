@@ -126,12 +126,42 @@
 
 // *Example:-
 
+// let arr = [1, 2, 3, 4, 5];
+
+// let newArr = arr.map((val) => {
+  
+//   return val * 2;
+  
+  
+// });
+//  console.log(newArr);
+
+
+//  ? filter :-
+//             Creates a new array of elements that give true for a condition/filter.
+// Example:-  all even elements
+// let arr = [1, 2, 3, 4, 5];
+
+// let evenarr = arr.filter((val) => {
+//   return val % 2 === 0;
+// })
+
+
+// let oddarr = arr.filter((val) => {
+//   return val % 2 != 0;
+// })
+
+// console.log(evenarr);
+// console.log(oddarr);
+
+
+// ? reduce:-
+//            Performs some operations & reduces the array to a single value. It returns that single value.
+
 let arr = [1, 2, 3, 4, 5];
 
-let newArr = arr.map((val) => {
-  
-  return val * 2;
-  
-  
+const output = arr.reduce((res, curr) => {
+  return res + curr;
 });
- console.log(newArr);
+
+console.log(output);
