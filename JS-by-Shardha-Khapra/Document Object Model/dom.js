@@ -31,6 +31,8 @@
 
 // ! DOM Manipulation:-
 
+// ! Selectors:-
+
 // ? Selecting wit id:-
 
 document.getElementById("myId")
@@ -51,3 +53,21 @@ document.querySelector("myId/ myClass/ tag")
 
 document.querySelectorAll("myId/ myClass/ tag")
 //  returns a Nodelist
+
+
+// ! Properties:-
+
+// ? tag name:- returns tag for element node.
+
+console.log(firstelement.tagName);
+
+// ? innerText:- returns the next content of element and all its children.
+
+console.log(firstelement.children);
+
+// ? innerHTML :- returns the plain text or HTML contents in the element
+
+let div= document.querySelector("div");
+console.dir(div);
+
+// ? textContent:- returns textual content even for hidden elements
