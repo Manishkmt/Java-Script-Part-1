@@ -44,7 +44,7 @@ document.getElementsByClassName("myClass")
 
 document.getElementsByTagName("p")
 
-// ? Query Selector:-
+// ? Query Selector:-  returns nodelist
 
 document.querySelector("myId/ myClass/ tag")
 //  returns first element
