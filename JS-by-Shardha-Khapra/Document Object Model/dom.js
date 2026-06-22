@@ -71,3 +71,7 @@ let div= document.querySelector("div");
 console.dir(div);
 
 // ? textContent:- returns textual content even for hidden elements
+
+
+
+// ! Attributes:-
