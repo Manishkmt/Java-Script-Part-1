@@ -25,7 +25,7 @@ button{
   background-color: aquamarine;
 } */
 
-#box{
+/* #box{
  width: 100px;
   height: 250px;
   border: 1px solid black;
@@ -33,4 +33,16 @@ button{
   text-align: center;
   background-color:blue;
   color:#fff;
+} */
+
+/* practice 4 content */
+
+.content{
+  color: red;
+  
+}
+
+.newclass{
+
+  background-color: yellow;
 }

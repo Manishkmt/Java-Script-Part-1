@@ -92,25 +92,50 @@
 //  let el = document.createElement("div");
 
 
-let newbtn = document.createElement("button");
-newbtn.innerText = "Click Me";
-console.log(newbtn);
+// let newbtn = document.createElement("button");
+// newbtn.innerText = "Click Me";
+// console.log(newbtn);
 
 
 // ? node.append(el):- adds at he end of node (inside)
 
 // Example:-
-let div = document.querySelector("div");
+// let newbtn = document.createElement("button");
+// let div = document.querySelector("div");
 // div.append(newbtn);
 // ? node.prepend(el):- adds athe the start of node(inside).
 
-// Example:-
 
-div.preppend(newbtn);
+// Example:-
+// let newbtn = document.createElement("button");
+// let div = document.querySelector("div");
+// div.preppend(newbtn);
 // ? node.before(el):- adds before the node (outside).
+// let div = document.querySelector("div");
+// newbtn.innerText = "Click Me";
+// let div = document.querySelector("div");
+
+// div.before(newbtn);
+
+
+let newHeading = document.createElement("h1");
+newHeading .innerHtml = <i>Good Morning</i>;
+
+document.querySelector("body").prepand("newHeading");
 
 // ? node.after(el): adds after the node (outside).
+// let newbtn = document.createElement("button");
+// newbtn.innerText = "Click Me";
+// console.log(newbtn);
+// let div = document.querySelector("div");
+// div.after(newbtn);
 
+
+// ! Delete Element:-
+
+// ? node.remove() :- remove the nodes
+let para = document.querySelector("p");
+para.remove();
 
 
 
